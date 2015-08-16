@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Karmanta - Bootstrap 3 Responsive Admin Template">
+    <meta name="author" content="GeeksLabs">
+    <meta name="keyword" content="Karmanta, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <title>Blank | Karmanta - Bootstrap 3 Responsive Admin Template</title>
+
+    <!-- Bootstrap CSS -->    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- bootstrap theme -->
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <!--external css-->
+    <!-- font icon -->
+    <link href="css/elegant-icons-style.css" rel="stylesheet" />
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <!-- Custom styles -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet" />
+    <!-- syntaxhighlight -->
+    <link rel="stylesheet" type="text/css" href="http://syntaxhighlight.in/shi/css/shi_default.min.css"/>    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+      <script src="js/lte-ie7.js"></script>
+    <![endif]-->
+    <style type="text/css">
+    
+    .doc-post {
+        text-align: left;
+        padding-top: 100px;
+    }
+    .jumbotron{
+      text-align: center;
+      margin: 100px 0 50px 0;
+    }
+    .welcome-text{
+      font-size: 1.5em;
+    }    
+    .blog-doc{
+      padding: 40px 0 40px 0;
+    }
+    .blog-doc .hr-circle{
+      padding: 20px 0px;
+    }
+
+    .doc-type-circle {
+        width: 100px;
+      height: 100px;
+      background-color: #48CFAD;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      margin: 0 auto;
+      position: relative;
+      margin-top: -50px;  
+    }
+    .doc-type-circle i{
+      color: #fff;
+      line-height: 80px;
+      font-size: 2.5em;
+    }
+    .doc-img{
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      border-radius: 20px;
+    }
+    .doc-content{
+      padding: 20px 0px;
+    }
+    .snippet-num,code,pre{
+      font-family: monospace;
+    }
+    h3{
+      font-size: 1.4em;
+    }
+    .author-details li{
+        font-size: 14px;
+    }
+    </style>
+  </head>
+
+  <body>
+  <!-- container section start -->
+  <section id="container" class="">
+      <!--header start-->
+      <div class="alert alert-block alert-danger fade in karmanta-pro">
+          <button data-dismiss="alert" class="close close-sm" type="button">
+              <i class="icon-remove"></i>
+          </button>
+          <h3><strong>Heya !</strong> Download KARMANTA Full version in just 8$  :  <a href="http://dmartify.com/live-preview/?theme_id=10631" target="_blank">DEMO</a>  |  <a href="http://dmartify.com/downloads/karmanta-bootstrap-3-responsive-admin-template/" target="_blank">BUY NOW!</a></h3> 
+      </div>
+      <header class="header white-bg">
+            <div class="toggle-nav">
+                <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"></div>
+            </div>
+
+            <!--logo start-->
+            <a href="index.html" class="logo">Karm<span>anta</span> <span class="lite">Lite</span></a>
+            <!--logo end-->
+            
+            <div class="top-nav notification-row">
+                <h4>Documentation v1.0</h4>
+            </div>
+      </header>      
+      <!--header end-->
+
+      <!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse ">
+            <!-- sidebar menu start-->
+            <ul class="sidebar-menu">
+                <li><a href="#welcome">Home</a></li>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#using-theme">Using Theme</a></li>
+                <li><a href="#html-stracture">HTML Structure</a></li>
+                <li><a href="#css-stracture">CSS Structure</a></li>
+                <li><a href="#js-settings">Javascript Settings</a></li>
+                <li><a href="#shortcodes">Shortcodes</a></li>            
+                <li><a href="#credits">Credits</a></li>            
+            </ul>
+            <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+
+      <!--main content start-->
+      <section id="main-content">
+          <section class="wrapper">
+              <!-- End Navbar -->
+    <section id="welcome" class="clearfix">
+      <div class="row-fluid content container">
+        <div class="col-md-12">
+          <div class="jumbotron">
+              <a href="http://demo.geekslabs.com/karmanta/"><img src="img/logo-big.png" class="img-responsive" alt="Karmanta Logo Big" style="text-align:center;width:100px;"></a>             
+              <h3 class="welcome-text">Welcome To Karmanta Theme Documentation</h3>              
+              <p>Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to create a support thread on our support forum. Thanks so much!</p>
+              <ul class="author-details">
+                <li>By: GeeksLabs</li>
+                <li>Contact: <a href="mailto:hello@geekslabs.com">hello@geekslabs.com</a></li>
+                <li>Demo: <a target="_blank" href="http://demo.geekslabs.com/karmata">http://demo.geekslabs.com/karmata</a></li>
+              </ul>
+              <a href="http://geekslabs.freshdesk.com/support/discussions" title="Karmanta" target="_blank" class="btn btn-danger btn-lg"><i class="icon_lifesaver"></i>
+                Support
+              </a>
+              <a href="http://geekslabs.freshdesk.com/support/login" title="Karmanta" target="_blank" class="btn btn-info btn-lg"><i class="icon_mail_alt"></i>
+                Contact Us 
+              </a>
+              <a href="index.html" title="Karmanta" target="_blank" class="btn btn-primary btn-lg"><i class="icon_desktop"></i>
+                Live Demo
+              </a>
+              <a href="" title="Karmanta" target="_blank" class="btn btn-success btn-lg"><i class="icon_cart_alt"></i>
+                Purchase Now
+              </a>
+          </div>
+
+          
+          <div id="overview" class="doc-post ">
+            <div class="row">
+                  <div class="col-lg-12">
+                      <section class="panel">
+                          <header class="panel-heading">
+                              Karmanta - Bootstrap 3 Responsive Admin Template
+                          </header>
+                          <div class="panel-body">
+                            <p>Karmanta is the excellent responsive and multipurpose Admin Theme powered with Twitter Bootstrap 3.0 Framework. Karmanta can be used for any type of web applications dashboard: custom admin panels, admin dashboards, CMS, CRM, SAAS and websites: CMSs, SAAS, CRM, HRMS, Support & Social portal, e-commerce, personal business, corporate. Karmanta has a minimal, sleek, clean and intuitive design which makes your next project look awesome and yet user friendly. </p>
+                            <p>Karmanta is minimal, sleek, clean and lightweight which makes your next project look awesome and yet user friendly. Karmanta has a huge collection of UI Elements, jQuery plugins and works seamlessly on all major web browsers, tablets and phones. User friendly, intuitive, and fun to use, Have look Karmanta today!</p>
+                          </div>
+                      </section>
+                  </div>
+              </div>
+          </div>
+            
+
+          <hr>
+
+          <div id="features" class="doc-post ">
+            <div class="row">
+                  <div class="col-lg-12">
+                      <section class="panel">
+                          <header class="panel-heading">
+                              Features
+                          </header>
+                          <div class="panel-body">
+                            <ul class="list2">
+                                <li>Bootstrap 3 Framework</li>
+                                <li>Responsive Design</li>
+                                <li>Html5 Markup & CSS3</li>
+                                <li>Fully customizable</li>
+                                <li>Flat UI with clean style</li>                    
+                                <li>Dashboard with profile widget, stats, charts and many more...</li>
+                                <li>10+ Custom widgets</li>
+                                <li>Custom UI Tabs and Accordions</li>
+                                <li>Charts and Graphs (Morris, ChartJs and Sparkline)</li>
+                                <li>Circle Dials (jQuery Knob)</li>
+                                <li>Advance Form Validation (jQuery Form Validation Plug-in)</li>
+                                <li>Data Tables (jQuery Data Tables)</li>
+                                <li>Full Calendar (jQuery Full Calendar)</li>
+                                <li>Custom  Radio Buttons and Checkboxes</li>
+                                <li>Nice Scrollbar For Vertical Scrollable Contents</li>
+                                <li>Sticky Notifications (jQuery Gritter)</li>
+                                <li>Colorpicker for Bootstrap</li>
+                                <li>Datepicker for Bootstrap</li>
+                                <li>Date Range Picker</li>
+                                <li>Elegant Line icon</li>
+                                <li>Font Awesome icons</li>
+                                <li>Lato and Open Sans Google fonts</li>
+                                <li>Form Wizards</li>
+                                <li>WYSIWYG Editors</li>
+                                <li>User Profile page</li>
+                                <li>Mail page</li>
+                                <li>Login pages</li>
+                                <li>Timeline page</li>
+                                <li>Invoice page</li>
+                                <li>Chat Page</li>
+                                <li>404 Error pages</li>
+                                <li>Well structured code</li>                    
+                                <li>Detailed Documentation</li>
+                            </ul>
+                          </div>
+                      </section>            
+                    </div>
+            </div>
+          </div>
+          <hr>
+          <div id="using-theme" class="doc-post ">
+            <div class="row">
+                  <div class="col-lg-12">
+                      <section class="panel">
+                          <header class="panel-heading">
+                              Using Theme
+                          </header>
+                          <div class="panel-body">
+                              <p><i class="arrow_carrot-right"></i> After unzip Theme Files, you will found Admin Theme & Documentation Folder.</p>
+                              <p><i class="arrow_carrot-right"></i> You can view this Theme in any web browser from your desktop computer. Open <code>admin-template/index.html</code> in your web browser. Because the files are written in HTML, you do not need an Internet connection in order to display or edit the Theme.</p>              
+                              <h4>Folder Structure</h4>
+                              <ul>
+                                <li><strong>Karmanta/</strong></li>
+                                <li>../css</li>                                
+                                <li>../js</li>
+                                <li>../fonts</li>
+                                <li>../img</li>
+                                <li>../assets</li>
+                              </ul>
+                              <p><i class="arrow_carrot-right"></i> Start your FTP client (I persoanlly use Filezila which is free) and login. Login to your server. You will need your server name (often times this will be your domain name), username, and password that you setup with the hosting company.</p>              
+                              <p><i class="arrow_carrot-right"></i> Locate the domain folder you wish to upload your Theme files to on your server. You are going to want to click and drag every file that you have labeled .html, .css, .php, .js into your FTP client.</p>
+                              <p><i class="arrow_carrot-right"></i>As Karmata designed for backend panel of your web platform, You need to implement yourself backend code in JAVA, PHP, .NET ,Ruby or any other as per your standers to view dynamic data and layout.</p>
+                              <p><i class="arrow_carrot-right"></i> Once the files are done uploading, rename the file you want to be your home page as 'index.html'.</p>
+                          </div>
+
+                      </section>
+                  </div>
+              </div>
+          </div>
+          <hr>
+
+          <div id="html-stracture" class="doc-post ">          
+            <div class="row">
+                  <div class="col-lg-12">
+                      <section class="panel">
+                          <header class="panel-heading">
+                              HTML Stracture
+                          </header>
+                          <div class="panel-body">  
+                          <p><i class="arrow_carrot-right"></i> After unzip the Theme files you can see <code>Karmanta/blank.html</code> folder. That file contain the following common structure.</p>
+                          <p><i class="arrow_carrot-right"></i> By using <code>blank.html</code> you are free to modify depending on the customization you require.<br>If you would like to add/edit UI elements, Widget, Data Tables or charts.</p>
+                            <div class="snippet-container"><div class="sh_default snippet-wrap"><div class="snippet-menu sh_sourceCode"><a class="snippet-window sh_url" href="#">pop-up</a><a class="snippet-text sh_url" href="#">text</a></div><pre class="shi_pre sh_html snippet-formatted sh_sourceCode"><ol class="snippet-num"><li><span class="sh_preproc">&lt;!DOCTYPE</span> <span class="sh_type">html</span><span class="sh_preproc">&gt;</span></li><li><span class="sh_keyword">&lt;html</span> <span class="sh_type">lang</span><span class="sh_symbol">=</span><span class="sh_string">"en"</span><span class="sh_keyword">&gt;</span></li><li>  <span class="sh_keyword">&lt;head&gt;</span></li><li>    <span class="sh_keyword">&lt;meta</span> <span class="sh_type">charset</span><span class="sh_symbol">=</span><span class="sh_string">"utf-8"</span><span class="sh_keyword">&gt;</span></li><li>    <span class="sh_keyword">&lt;meta</span> <span class="sh_type">name</span><span class="sh_symbol">=</span><span class="sh_string">"viewport"</span> <span class="sh_type">content</span><span class="sh_symbol">=</span><span class="sh_string">"width=device-width, initial-scale=1.0"</span><span class="sh_keyword">&gt;</span></li><li>    <span class="sh_keyword">&lt;meta</span> <span class="sh_type">name</span><span class="sh_symbol">=</span><span class="sh_string">"description"</span> <span class="sh_type">content</span><span class="sh_symbol">=</span><span class="sh_string">"Karmanta - Bootstrap 3 Responsive Admin Template"</span><span class="sh_keyword">&gt;</span></li><li>    <span class="sh_keyword">&lt;meta</span> <span class="sh_type">name</span><span class="sh_symbol">=</span><span class="sh_string">"author"</span> <span class="sh_type">content</span><span class="sh_symbol">=</span><span class="sh_string">"GeeksLabs"</span><span class="sh_keyword">&gt;</span></li><li>    <span class="sh_keyword">&lt;meta</span> <span class="sh_type">name</span><span class="sh_symbol">=</span><span class="sh_string">"keyword"</span> <span class="sh_type">content</span><span class="sh_symbol">=</span><span class="sh_string">"Karmanta, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal"</span><span class="sh_keyword">&gt;</span></li><li>    <span class="sh_keyword">&lt;link</span> <span class="sh_type">rel</span><span class="sh_symbol">=</span><span class="sh_string">"shortcut icon"</span> <span class="sh_type">href</span><span class="sh_symbol">=</span><span class="sh_string">"img/favicon.png"</span><span class="sh_keyword">&gt;</span></li><li></li><li>    <span class="sh_keyword">&lt;title&gt;</span>Blank | Karmanta - Bootstrap 3 Responsive Admin Template<span class="sh_keyword">&lt;/title&gt;</span></li><li></li><li>    <span class="sh_comment">&lt;!-- Bootstrap CSS --&gt;</span>    </li><li>    <span class="sh_keyword">&lt;link</span> <span class="sh_type">href</span><span class="sh_symbol">=</span><span class="sh_string">"css/bootstrap.min.css"</span> <span class="sh_type">rel</span><span class="sh_symbol">=</span><span class="sh_string">"stylesheet"</span><span class="sh_keyword">&gt;</span></li><li>    <span class="sh_comment">&lt;!-- bootstrap theme --&gt;</span></li><li>    <span class="sh_keyword">&lt;link</span> <span class="sh_type">href</span><span class="sh_symbol">=</span><span class="sh_string">"css/bootstrap-theme.css"</span> <span class="sh_type">rel</span><span class="sh_symbol">=</span><span class="sh_string">"stylesheet"</span><span class="sh_keyword">&gt;</span></li><li>    <span class="sh_comment">&lt;!--external css--&gt;</span></li><li>    <span class="sh_comment">&lt;!-- font icon --&gt;</span></li><li>    <span class="sh_keyword">&lt;link</span> <span class="sh_type">href</span><span class="sh_symbol">=</span><span class="sh_string">"css/elegant-icons-style.css"</span> <span class="sh_type">rel</span><span class="sh_symbol">=</span><span class="sh_string">"stylesheet"</span> <span class="sh_keyword">/&gt;</span></li><li>    <span class="sh_keyword">&lt;link</span> <span class="sh_type">href</span><span class="sh_symbol">=</span><span class="sh_string">"assets/font-awesome/css/font-awesome.css"</span> <span class="sh_type">rel</span><span class="sh_symbol">=</span><span class="sh_string">"stylesheet"</span> <span class="sh_keyword">/&gt;</span></li><li>    <span class="sh_comment">&lt;!-- Custom styles --&gt;</span></li><li>    <span class="sh_keyword">&lt;link</span> <span class="sh_type">href</span><span class="sh_symbol">=</span><span class="sh_string">"css/style.css"</span> <span class="sh_type">rel</span><span class="sh_symbol">=</span><span class="sh_string">"stylesheet"</span><span class="sh_keyword">&gt;</span></li><li>    <span class="sh_keyword">&lt;link</span> <span class="sh_type">href</span><span class="sh_symbol">=</span><span class="sh_string">"css/style-responsive.css"</span> <span class="sh_type">rel</span><span class="sh_symbol">=</span><span class="sh_string">"stylesheet"</span> <span class="sh_keyword">/&gt;</span></li><li></li><li>    <span class="sh_comment">&lt;!-- HTML5 shim and Respond.js IE8 support of HTML5 --&gt;</span></li><li>    <span class="sh_comment">&lt;!--[if lt IE 9]&gt;</span></li><li><span class="sh_comment">      &lt;script src="js/html5shiv.js"&gt;&lt;/script&gt;</span></li><li><span class="sh_comment">      &lt;script src="js/respond.min.js"&gt;&lt;/script&gt;</span></li><li><span class="sh_comment">      &lt;script src="js/lte-ie7.js"&gt;&lt;/script&gt;</span></li><li><span class="sh_comment">    &lt;![endif]--&gt;</span></li><li>  <span class="sh_keyword">&lt;/head&gt;</span></li><li></li><li>  <span class="sh_keyword">&lt;body&gt;</span></li><li>  <span class="sh_comment">&lt;!-- container section start --&gt;</span></li><li>  <span class="sh_keyword">&lt;section</span> <span class="sh_type">id</span><span class="sh_symbol">=</span><span class="sh_string">"container"</span> <span class="sh_type">class</span><span class="sh_symbol">=</span><span class="sh_string">""</span><span class="sh_keyword">&gt;</span></li><li>      <span class="sh_comment">&lt;!--header start--&gt;</span></li><li>      <span class="sh_keyword">&lt;header</span> <span class="sh_type">class</span><span class="sh_symbol">=</span><span class="sh_string">"header white-bg"</span><span class="sh_keyword">&gt;</span></li><li>      <span class="sh_keyword">&lt;/header&gt;</span>      </li><li>      <span class="sh_comment">&lt;!--header end--&gt;</span></li><li></li><li>      <span class="sh_comment">&lt;!--sidebar start--&gt;</span></li><li>      <span class="sh_keyword">&lt;aside&gt;</span></li><li>      <span class="sh_keyword">&lt;/aside&gt;</span></li><li>      <span class="sh_comment">&lt;!--sidebar end--&gt;</span></li><li></li><li>      <span class="sh_comment">&lt;!--main content start--&gt;</span></li><li>      <span class="sh_keyword">&lt;section</span> <span class="sh_type">id</span><span class="sh_symbol">=</span><span class="sh_string">"main-content"</span><span class="sh_keyword">&gt;</span></li><li>          <span class="sh_keyword">&lt;section</span> <span class="sh_type">class</span><span class="sh_symbol">=</span><span class="sh_string">"wrapper"</span><span class="sh_keyword">&gt;</span></li><li>              <span class="sh_comment">&lt;!-- page start--&gt;</span></li><li>              Page content goes here</li><li>              <span class="sh_comment">&lt;!-- page end--&gt;</span></li><li>          <span class="sh_keyword">&lt;/section&gt;</span></li><li>      <span class="sh_keyword">&lt;/section&gt;</span></li><li>      <span class="sh_comment">&lt;!--main content end--&gt;</span></li><li>    <span class="sh_keyword">&lt;/section&gt;</span></li><li>    <span class="sh_comment">&lt;!-- container section end --&gt;</span></li><li>    <span class="sh_comment">&lt;!-- javascripts --&gt;</span></li><li>    <span class="sh_keyword">&lt;script</span> <span class="sh_type">src</span><span class="sh_symbol">=</span><span class="sh_string">"js/jquery.js"</span><span class="sh_keyword">&gt;&lt;/script&gt;</span></li><li>    <span class="sh_keyword">&lt;script</span> <span class="sh_type">src</span><span class="sh_symbol">=</span><span class="sh_string">"js/bootstrap.min.js"</span><span class="sh_keyword">&gt;&lt;/script&gt;</span></li><li>    <span class="sh_comment">&lt;!-- nice scroll --&gt;</span></li><li>    <span class="sh_keyword">&lt;script</span> <span class="sh_type">src</span><span class="sh_symbol">=</span><span class="sh_string">"js/jquery.scrollTo.min.js"</span><span class="sh_keyword">&gt;&lt;/script&gt;</span></li><li>    <span class="sh_keyword">&lt;script</span> <span class="sh_type">src</span><span class="sh_symbol">=</span><span class="sh_string">"js/jquery.nicescroll.js"</span> <span class="sh_type">type</span><span class="sh_symbol">=</span><span class="sh_string">"text/javascript"</span><span class="sh_keyword">&gt;&lt;/script&gt;</span><span class="sh_comment">&lt;!--custome script for all page--&gt;</span></li><li>    <span class="sh_keyword">&lt;script</span> <span class="sh_type">src</span><span class="sh_symbol">=</span><span class="sh_string">"js/scripts.js"</span><span class="sh_keyword">&gt;&lt;/script&gt;</span></li><li>  <span class="sh_keyword">&lt;/body&gt;</span></li><li><span class="sh_keyword">&lt;/html&gt;</span></li></ol></pre><pre class="snippet-textonly sh_sourceCode" style="display:none;" tabindex="0" contenteditable="">&lt;!DOCTYPE html&gt;
+                                &lt;html lang="en"&gt;
+                                  &lt;head&gt;
+                                    &lt;meta charset="utf-8"&gt;
+                                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                                    &lt;meta name="description" content="Karmanta - Bootstrap 3 Responsive Admin Template"&gt;
+                                    &lt;meta name="author" content="GeeksLabs"&gt;
+                                    &lt;meta name="keyword" content="Karmanta, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal"&gt;
+                                    &lt;link rel="shortcut icon" href="img/favicon.png"&gt;
+
+                                    &lt;title&gt;Blank | Karmanta - Bootstrap 3 Responsive Admin Template&lt;/title&gt;
+
+                                    &lt;!-- Bootstrap CSS --&gt;    
+                                    &lt;link href="css/bootstrap.min.css" rel="stylesheet"&gt;
+                                    &lt;!-- bootstrap theme --&gt;
+                                    &lt;link href="css/bootstrap-theme.css" rel="stylesheet"&gt;
+                                    &lt;!--external css--&gt;
+                                    &lt;!-- font icon --&gt;
+                                    &lt;link href="css/elegant-icons-style.css" rel="stylesheet" /&gt;
+                                    &lt;link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" /&gt;
+                                    &lt;!-- Custom styles --&gt;
+                                    &lt;link href="css/style.css" rel="stylesheet"&gt;
+                                    &lt;link href="css/style-responsive.css" rel="stylesheet" /&gt;
+
+                                    &lt;!-- HTML5 shim and Respond.js IE8 support of HTML5 --&gt;
+                                    &lt;!--[if lt IE 9]&gt;
+                                      &lt;script src="js/html5shiv.js"&gt;&lt;/script&gt;
+                                      &lt;script src="js/respond.min.js"&gt;&lt;/script&gt;
+                                      &lt;script src="js/lte-ie7.js"&gt;&lt;/script&gt;
+                                    &lt;![endif]--&gt;
+                                  &lt;/head&gt;
+
+                                  &lt;body&gt;
+                                  &lt;!-- container section start --&gt;
+                                  &lt;section id="container" class=""&gt;
+                                      &lt;!--header start--&gt;
+                                      &lt;header class="header white-bg"&gt;
+                                      &lt;/header&gt;      
+                                      &lt;!--header end--&gt;
+
+                                      &lt;!--sidebar start--&gt;
+                                      &lt;aside&gt;
+                                      &lt;/aside&gt;
+                                      &lt;!--sidebar end--&gt;
+
+                                      &lt;!--main content start--&gt;
+                                      &lt;section id="main-content"&gt;
+                                          &lt;section class="wrapper"&gt;
+                                              &lt;!-- page start--&gt;
+                                              Page content goes here
+                                              &lt;!-- page end--&gt;
+                                          &lt;/section&gt;
+                                      &lt;/section&gt;
+                                      &lt;!--main content end--&gt;
+                                    &lt;/section&gt;
+                                    &lt;!-- container section end --&gt;
+                                    &lt;!-- javascripts --&gt;
+                                    &lt;script src="js/jquery.js"&gt;&lt;/script&gt;
+                                    &lt;script src="js/bootstrap.min.js"&gt;&lt;/script&gt;
+                                    &lt;!-- nice scroll --&gt;
+                                    &lt;script src="js/jquery.scrollTo.min.js"&gt;&lt;/script&gt;
+                                    &lt;script src="js/jquery.nicescroll.js" type="text/javascript"&gt;&lt;/script&gt;&lt;!--custome script for all page--&gt;
+                                    &lt;script src="js/scripts.js"&gt;&lt;/script&gt;
+                                  &lt;/body&gt;
+                                &lt;/html&gt;
+                                </pre></div></div>
+                          </div>
+                      </section>
+                  </div>
+              </div>
+          </div>
+          <hr>
+
+          <div id="css-stracture" class="doc-post ">
+            <div class="row">
+                  <div class="col-lg-12">
+                      <section class="panel">
+                          <header class="panel-heading">
+                              CSS Files and Structure
+                          </header>
+                          <div class="panel-body">
+                            <p><i class="arrow_carrot-right"></i> After unzip the Theme files you can see <code>Karmanta/css</code> folder. That css folder contains color,lib,pre-load.css &amp; style.css</p>
+                            <p><i class="arrow_carrot-right"></i> I am using one main CSS file name is <code>style.css</code> in this theme which you are free to modify depending on the customization you require.<br>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p>
+                            <div class="snippet-container"><div class="sh_default snippet-wrap"><div class="snippet-menu sh_sourceCode"><a class="snippet-window sh_url" href="#">pop-up</a><a class="snippet-text sh_url" href="#">text</a></div><pre class="shi_pre sh_css snippet-formatted sh_sourceCode"><ol class="snippet-num"><li><span class="sh_comment">/*</span></li><li><span class="sh_comment">Template Name: Karmanta Bootstrap 3 Responsive Admin Template</span></li><li><span class="sh_comment">Template Version: 1.0</span></li><li><span class="sh_comment">Author: GeeksLabs</span></li><li><span class="sh_comment">Website: </span><a class="sh_url" href="http://geekslabs.com/">http://geekslabs.com/</a></li><li><span class="sh_comment">*/</span></li><li></li><li><span class="sh_comment">/* Import fonts */</span></li><li>@import url<span class="sh_symbol">(</span>http<span class="sh_symbol">:</span><span class="sh_comment">//fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);</span></li><li>@import url<span class="sh_symbol">(</span>line<span class="sh_symbol">-</span>icons<span class="sh_selector">.css</span><span class="sh_symbol">);</span></li><li></li><li>body <span class="sh_cbracket">{</span></li><li>    <span class="sh_property">color:</span> <span class="sh_string">#797979</span>;</li><li>    <span class="sh_property">background:</span> <span class="sh_string">#eeeeee</span>;</li><li>    <span class="sh_property">font-family:</span> '<span class="sh_value">Lato</span>', <span class="sh_value">sans-serif</span>;</li><li>    <span class="sh_property">padding:</span> <span class="sh_value">0px</span> !<span class="sh_value">important</span>;</li><li>    <span class="sh_property">margin:</span> <span class="sh_value">0px</span> !<span class="sh_value">important</span>;</li><li>    <span class="sh_property">font-size:</span><span class="sh_value">14px</span> !<span class="sh_value">important</span>;    </li><li><span class="sh_cbracket">}</span></li><li>h1<span class="sh_symbol">,</span>h2<span class="sh_symbol">,</span>h3<span class="sh_symbol">,</span>h4<span class="sh_symbol">,</span>h5<span class="sh_cbracket">{</span></li><li>    <span class="sh_property">font-weight:</span> <span class="sh_value">300</span>;</li><li><span class="sh_cbracket">}</span></li><li>label<span class="sh_cbracket">{</span></li><li>    <span class="sh_property">font-weight:</span> <span class="sh_value">300</span>;   </li><li><span class="sh_cbracket">}</span></li><li>ul li <span class="sh_cbracket">{</span></li><li>    <span class="sh_property">list-style:</span> <span class="sh_value">none</span>;</li><li><span class="sh_cbracket">}</span></li></ol></pre><pre class="snippet-textonly sh_sourceCode" style="display:none;" tabindex="0" contenteditable="">/*
+                            Template Name: Karmanta Bootstrap 3 Responsive Admin Template
+                            Template Version: 1.0
+                            Author: GeeksLabs
+                            Website: http://geekslabs.com/
+                            */
+
+                            /* Import fonts */
+                            @import url(http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+                            @import url(line-icons.css);
+
+                            body {
+                                color: #797979;
+                                background: #eeeeee;
+                                font-family: 'Lato', sans-serif;
+                                padding: 0px !important;
+                                margin: 0px !important;
+                                font-size:14px !important;    
+                            }
+                            h1,h2,h3,h4,h5{
+                                font-weight: 300;
+                            }
+                            label{
+                                font-weight: 300;   
+                            }
+                            ul li {
+                                list-style: none;
+                            }</pre></div></div>
+                          </div>
+                      </section>
+                  </div>
+              </div>
+          </div>
+          <hr>
+
+          <div id="js-settings" class="doc-post ">
+            <div class="row">
+                  <div class="col-lg-12">
+                      <section class="panel">
+                          <header class="panel-heading">
+                              JavaScript Structure
+                          </header>
+                          <div class="panel-body">
+                            <p>After unzip the Theme files you can see <code>Karmanta/js</code> folder. That js folder contains jQuery, bootstrap & different jQuery plugin js file & <code>scripts.js</code> (custom js for this theme).
+                            <p>This theme custom js file name is <code>scripts.js</code>. If you have enough jQuery knowledge, you are free to modify depending on the customization you require.</p> 
+                            <div class="snippet-container"><div class="sh_default snippet-wrap"><div class="snippet-menu sh_sourceCode"><a class="snippet-window sh_url" href="#">pop-up</a><a class="snippet-text sh_url" href="#">text</a></div><pre class="shi_pre sh_javascript snippet-formatted sh_sourceCode"><ol class="snippet-num"><li><span class="sh_keyword">function</span> <span class="sh_function">initializeJS</span><span class="sh_symbol">()</span> <span class="sh_cbracket">{</span></li><li></li><li>    <span class="sh_comment">//tool tips</span></li><li>    <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">'.tooltips'</span><span class="sh_symbol">).</span><span class="sh_function">tooltip</span><span class="sh_symbol">();</span></li><li></li><li>    <span class="sh_comment">//popovers</span></li><li>    <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">'.popovers'</span><span class="sh_symbol">).</span><span class="sh_function">popover</span><span class="sh_symbol">();</span></li><li></li><li>    <span class="sh_comment">//custom scrollbar</span></li><li>        <span class="sh_comment">//for html</span></li><li>    <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">"html"</span><span class="sh_symbol">).</span><span class="sh_function">niceScroll</span><span class="sh_symbol">(</span><span class="sh_cbracket">{</span>styler<span class="sh_symbol">:</span><span class="sh_string">"fb"</span><span class="sh_symbol">,</span>cursorcolor<span class="sh_symbol">:</span><span class="sh_string">"#007AFF"</span><span class="sh_symbol">,</span> cursorwidth<span class="sh_symbol">:</span> <span class="sh_string">'6'</span><span class="sh_symbol">,</span> cursorborderradius<span class="sh_symbol">:</span> <span class="sh_string">'10px'</span><span class="sh_symbol">,</span> background<span class="sh_symbol">:</span> <span class="sh_string">'#F7F7F7'</span><span class="sh_symbol">,</span> cursorborder<span class="sh_symbol">:</span> <span class="sh_string">''</span><span class="sh_symbol">,</span> zindex<span class="sh_symbol">:</span> <span class="sh_string">'1000'</span><span class="sh_cbracket">}</span><span class="sh_symbol">);</span></li><li>        <span class="sh_comment">//for sidebar</span></li><li>    <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">"#sidebar"</span><span class="sh_symbol">).</span><span class="sh_function">niceScroll</span><span class="sh_symbol">(</span><span class="sh_cbracket">{</span>styler<span class="sh_symbol">:</span><span class="sh_string">"fb"</span><span class="sh_symbol">,</span>cursorcolor<span class="sh_symbol">:</span><span class="sh_string">"#007AFF"</span><span class="sh_symbol">,</span> cursorwidth<span class="sh_symbol">:</span> <span class="sh_string">'3'</span><span class="sh_symbol">,</span> cursorborderradius<span class="sh_symbol">:</span> <span class="sh_string">'10px'</span><span class="sh_symbol">,</span> background<span class="sh_symbol">:</span> <span class="sh_string">'#F7F7F7'</span><span class="sh_symbol">,</span> cursorborder<span class="sh_symbol">:</span> <span class="sh_string">''</span><span class="sh_cbracket">}</span><span class="sh_symbol">);</span></li><li>        <span class="sh_comment">// for scroll panel</span></li><li>    <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">".scroll-panel"</span><span class="sh_symbol">).</span><span class="sh_function">niceScroll</span><span class="sh_symbol">(</span><span class="sh_cbracket">{</span>styler<span class="sh_symbol">:</span><span class="sh_string">"fb"</span><span class="sh_symbol">,</span>cursorcolor<span class="sh_symbol">:</span><span class="sh_string">"#007AFF"</span><span class="sh_symbol">,</span> cursorwidth<span class="sh_symbol">:</span> <span class="sh_string">'3'</span><span class="sh_symbol">,</span> cursorborderradius<span class="sh_symbol">:</span> <span class="sh_string">'10px'</span><span class="sh_symbol">,</span> background<span class="sh_symbol">:</span> <span class="sh_string">'#F7F7F7'</span><span class="sh_symbol">,</span> cursorborder<span class="sh_symbol">:</span> <span class="sh_string">''</span><span class="sh_cbracket">}</span><span class="sh_symbol">);</span></li><li>    </li><li>    <span class="sh_comment">//sidebar dropdown menu</span></li><li>    <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">'#sidebar .sub-menu &gt; a'</span><span class="sh_symbol">).</span><span class="sh_function">click</span><span class="sh_symbol">(</span><span class="sh_keyword">function</span> <span class="sh_symbol">()</span> <span class="sh_cbracket">{</span></li><li>        <span class="sh_keyword">var</span> last <span class="sh_symbol">=</span> <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">'.sub-menu.open'</span><span class="sh_symbol">,</span> <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">'#sidebar'</span><span class="sh_symbol">));</span>        </li><li>        <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">'.menu-arrow'</span><span class="sh_symbol">).</span><span class="sh_function">removeClass</span><span class="sh_symbol">(</span><span class="sh_string">'arrow_carrot-right'</span><span class="sh_symbol">);</span></li><li>        <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">'.sub'</span><span class="sh_symbol">,</span> last<span class="sh_symbol">).</span><span class="sh_function">slideUp</span><span class="sh_symbol">(</span><span class="sh_number">200</span><span class="sh_symbol">);</span></li><li>        <span class="sh_keyword">var</span> sub <span class="sh_symbol">=</span> <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_keyword">this</span><span class="sh_symbol">).</span><span class="sh_function">next</span><span class="sh_symbol">();</span></li><li>        <span class="sh_keyword">if</span> <span class="sh_symbol">(</span>sub<span class="sh_symbol">.</span><span class="sh_function">is</span><span class="sh_symbol">(</span><span class="sh_string">":visible"</span><span class="sh_symbol">))</span> <span class="sh_cbracket">{</span></li><li>            <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">'.menu-arrow'</span><span class="sh_symbol">).</span><span class="sh_function">addClass</span><span class="sh_symbol">(</span><span class="sh_string">'arrow_carrot-right'</span><span class="sh_symbol">);</span>            </li><li>            sub<span class="sh_symbol">.</span><span class="sh_function">slideUp</span><span class="sh_symbol">(</span><span class="sh_number">200</span><span class="sh_symbol">);</span></li><li>        <span class="sh_cbracket">}</span> <span class="sh_keyword">else</span> <span class="sh_cbracket">{</span></li><li>            <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">'.menu-arrow'</span><span class="sh_symbol">).</span><span class="sh_function">addClass</span><span class="sh_symbol">(</span><span class="sh_string">'arrow_carrot-down'</span><span class="sh_symbol">);</span>            </li><li>            sub<span class="sh_symbol">.</span><span class="sh_function">slideDown</span><span class="sh_symbol">(</span><span class="sh_number">200</span><span class="sh_symbol">);</span></li><li>        <span class="sh_cbracket">}</span></li><li>        <span class="sh_keyword">var</span> o <span class="sh_symbol">=</span> <span class="sh_symbol">(</span><span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_keyword">this</span><span class="sh_symbol">).</span><span class="sh_function">offset</span><span class="sh_symbol">());</span></li><li>        diff <span class="sh_symbol">=</span> <span class="sh_number">200</span> <span class="sh_symbol">-</span> o<span class="sh_symbol">.</span>top<span class="sh_symbol">;</span></li><li>        <span class="sh_keyword">if</span><span class="sh_symbol">(</span>diff<span class="sh_symbol">&gt;</span><span class="sh_number">0</span><span class="sh_symbol">)</span></li><li>            <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">"#sidebar"</span><span class="sh_symbol">).</span><span class="sh_function">scrollTo</span><span class="sh_symbol">(</span><span class="sh_string">"-="</span><span class="sh_symbol">+</span><span class="sh_predef_var">Math</span><span class="sh_symbol">.</span><span class="sh_function">abs</span><span class="sh_symbol">(</span>diff<span class="sh_symbol">),</span><span class="sh_number">500</span><span class="sh_symbol">);</span></li><li>        <span class="sh_keyword">else</span></li><li>            <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">"#sidebar"</span><span class="sh_symbol">).</span><span class="sh_function">scrollTo</span><span class="sh_symbol">(</span><span class="sh_string">"+="</span><span class="sh_symbol">+</span><span class="sh_predef_var">Math</span><span class="sh_symbol">.</span><span class="sh_function">abs</span><span class="sh_symbol">(</span>diff<span class="sh_symbol">),</span><span class="sh_number">500</span><span class="sh_symbol">);</span></li><li>    <span class="sh_cbracket">}</span><span class="sh_symbol">);</span></li><li></li><li>    <span class="sh_comment">// sidebar menu toggle</span></li><li>    <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_keyword">function</span><span class="sh_symbol">()</span> <span class="sh_cbracket">{</span></li><li>        <span class="sh_keyword">function</span> <span class="sh_function">responsiveView</span><span class="sh_symbol">()</span> <span class="sh_cbracket">{</span></li><li>            <span class="sh_keyword">var</span> wSize <span class="sh_symbol">=</span> <span class="sh_function">jQuery</span><span class="sh_symbol">(</span>window<span class="sh_symbol">).</span><span class="sh_function">width</span><span class="sh_symbol">();</span></li><li>            <span class="sh_keyword">if</span> <span class="sh_symbol">(</span>wSize <span class="sh_symbol">&lt;=</span> <span class="sh_number">768</span><span class="sh_symbol">)</span> <span class="sh_cbracket">{</span></li><li>                <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">'#container'</span><span class="sh_symbol">).</span><span class="sh_function">addClass</span><span class="sh_symbol">(</span><span class="sh_string">'sidebar-close'</span><span class="sh_symbol">);</span></li><li>                <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">'#sidebar &gt; ul'</span><span class="sh_symbol">).</span><span class="sh_function">hide</span><span class="sh_symbol">();</span></li><li>            <span class="sh_cbracket">}</span></li><li></li><li>            <span class="sh_keyword">if</span> <span class="sh_symbol">(</span>wSize <span class="sh_symbol">&gt;</span> <span class="sh_number">768</span><span class="sh_symbol">)</span> <span class="sh_cbracket">{</span></li><li>                <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">'#container'</span><span class="sh_symbol">).</span><span class="sh_function">removeClass</span><span class="sh_symbol">(</span><span class="sh_string">'sidebar-close'</span><span class="sh_symbol">);</span></li><li>                <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">'#sidebar &gt; ul'</span><span class="sh_symbol">).</span><span class="sh_function">show</span><span class="sh_symbol">();</span></li><li>            <span class="sh_cbracket">}</span></li><li>        <span class="sh_cbracket">}</span></li><li>        <span class="sh_function">jQuery</span><span class="sh_symbol">(</span>window<span class="sh_symbol">).</span><span class="sh_function">on</span><span class="sh_symbol">(</span><span class="sh_string">'load'</span><span class="sh_symbol">,</span> responsiveView<span class="sh_symbol">);</span></li><li>        <span class="sh_function">jQuery</span><span class="sh_symbol">(</span>window<span class="sh_symbol">).</span><span class="sh_function">on</span><span class="sh_symbol">(</span><span class="sh_string">'resize'</span><span class="sh_symbol">,</span> responsiveView<span class="sh_symbol">);</span></li><li>    <span class="sh_cbracket">}</span><span class="sh_symbol">);</span></li><li></li><li>    <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">'.toggle-nav'</span><span class="sh_symbol">).</span><span class="sh_function">click</span><span class="sh_symbol">(</span><span class="sh_keyword">function</span> <span class="sh_symbol">()</span> <span class="sh_cbracket">{</span></li><li>        <span class="sh_keyword">if</span> <span class="sh_symbol">(</span><span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">'#sidebar &gt; ul'</span><span class="sh_symbol">).</span><span class="sh_function">is</span><span class="sh_symbol">(</span><span class="sh_string">":visible"</span><span class="sh_symbol">)</span> <span class="sh_symbol">===</span> <span class="sh_keyword">true</span><span class="sh_symbol">)</span> <span class="sh_cbracket">{</span></li><li>            <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">'#main-content'</span><span class="sh_symbol">).</span><span class="sh_function">css</span><span class="sh_symbol">(</span><span class="sh_cbracket">{</span></li><li>                <span class="sh_string">'margin-left'</span><span class="sh_symbol">:</span> <span class="sh_string">'0px'</span></li><li>            <span class="sh_cbracket">}</span><span class="sh_symbol">);</span></li><li>            <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">'#sidebar'</span><span class="sh_symbol">).</span><span class="sh_function">css</span><span class="sh_symbol">(</span><span class="sh_cbracket">{</span></li><li>                <span class="sh_string">'margin-left'</span><span class="sh_symbol">:</span> <span class="sh_string">'-180px'</span></li><li>            <span class="sh_cbracket">}</span><span class="sh_symbol">);</span></li><li>            <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">'#sidebar &gt; ul'</span><span class="sh_symbol">).</span><span class="sh_function">hide</span><span class="sh_symbol">();</span></li><li>            <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">"#container"</span><span class="sh_symbol">).</span><span class="sh_function">addClass</span><span class="sh_symbol">(</span><span class="sh_string">"sidebar-closed"</span><span class="sh_symbol">);</span></li><li>        <span class="sh_cbracket">}</span> <span class="sh_keyword">else</span> <span class="sh_cbracket">{</span></li><li>            <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">'#main-content'</span><span class="sh_symbol">).</span><span class="sh_function">css</span><span class="sh_symbol">(</span><span class="sh_cbracket">{</span></li><li>                <span class="sh_string">'margin-left'</span><span class="sh_symbol">:</span> <span class="sh_string">'180px'</span></li><li>            <span class="sh_cbracket">}</span><span class="sh_symbol">);</span></li><li>            <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">'#sidebar &gt; ul'</span><span class="sh_symbol">).</span><span class="sh_function">show</span><span class="sh_symbol">();</span></li><li>            <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">'#sidebar'</span><span class="sh_symbol">).</span><span class="sh_function">css</span><span class="sh_symbol">(</span><span class="sh_cbracket">{</span></li><li>                <span class="sh_string">'margin-left'</span><span class="sh_symbol">:</span> <span class="sh_string">'0'</span></li><li>            <span class="sh_cbracket">}</span><span class="sh_symbol">);</span></li><li>            <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">"#container"</span><span class="sh_symbol">).</span><span class="sh_function">removeClass</span><span class="sh_symbol">(</span><span class="sh_string">"sidebar-closed"</span><span class="sh_symbol">);</span></li><li>        <span class="sh_cbracket">}</span></li><li>    <span class="sh_cbracket">}</span><span class="sh_symbol">);</span></li><li></li><li>    <span class="sh_comment">//bar chart</span></li><li>    <span class="sh_keyword">if</span> <span class="sh_symbol">(</span><span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">".custom-custom-bar-chart"</span><span class="sh_symbol">))</span> <span class="sh_cbracket">{</span></li><li>        <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_string">".bar"</span><span class="sh_symbol">).</span><span class="sh_function">each</span><span class="sh_symbol">(</span><span class="sh_keyword">function</span> <span class="sh_symbol">()</span> <span class="sh_cbracket">{</span></li><li>            <span class="sh_keyword">var</span> i <span class="sh_symbol">=</span> <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_keyword">this</span><span class="sh_symbol">).</span><span class="sh_function">find</span><span class="sh_symbol">(</span><span class="sh_string">".value"</span><span class="sh_symbol">).</span><span class="sh_function">html</span><span class="sh_symbol">();</span></li><li>            <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_keyword">this</span><span class="sh_symbol">).</span><span class="sh_function">find</span><span class="sh_symbol">(</span><span class="sh_string">".value"</span><span class="sh_symbol">).</span><span class="sh_function">html</span><span class="sh_symbol">(</span><span class="sh_string">""</span><span class="sh_symbol">);</span></li><li>            <span class="sh_function">jQuery</span><span class="sh_symbol">(</span><span class="sh_keyword">this</span><span class="sh_symbol">).</span><span class="sh_function">find</span><span class="sh_symbol">(</span><span class="sh_string">".value"</span><span class="sh_symbol">).</span><span class="sh_function">animate</span><span class="sh_symbol">(</span><span class="sh_cbracket">{</span></li><li>                height<span class="sh_symbol">:</span> i</li><li>            <span class="sh_cbracket">}</span><span class="sh_symbol">,</span> <span class="sh_number">2000</span><span class="sh_symbol">)</span></li><li>        <span class="sh_cbracket">}</span><span class="sh_symbol">)</span></li><li>    <span class="sh_cbracket">}</span></li><li></li><li><span class="sh_cbracket">}</span></li><li></li><li><span class="sh_function">jQuery</span><span class="sh_symbol">(</span>document<span class="sh_symbol">).</span><span class="sh_function">ready</span><span class="sh_symbol">(</span><span class="sh_keyword">function</span><span class="sh_symbol">()</span><span class="sh_cbracket">{</span></li><li>    <span class="sh_function">initializeJS</span><span class="sh_symbol">();</span></li><li><span class="sh_cbracket">}</span><span class="sh_symbol">);</span></li></ol></pre><pre class="snippet-textonly sh_sourceCode" style="display:none;" tabindex="0" contenteditable="">function initializeJS() {
+
+                            //tool tips
+                            jQuery('.tooltips').tooltip();
+
+                            //popovers
+                            jQuery('.popovers').popover();
+
+                            //custom scrollbar
+                                //for html
+                            jQuery("html").niceScroll({styler:"fb",cursorcolor:"#007AFF", cursorwidth: '6', cursorborderradius: '10px', background: '#F7F7F7', cursorborder: '', zindex: '1000'});
+                                //for sidebar
+                            jQuery("#sidebar").niceScroll({styler:"fb",cursorcolor:"#007AFF", cursorwidth: '3', cursorborderradius: '10px', background: '#F7F7F7', cursorborder: ''});
+                                // for scroll panel
+                            jQuery(".scroll-panel").niceScroll({styler:"fb",cursorcolor:"#007AFF", cursorwidth: '3', cursorborderradius: '10px', background: '#F7F7F7', cursorborder: ''});
+                            
+                            //sidebar dropdown menu
+                            jQuery('#sidebar .sub-menu &gt; a').click(function () {
+                                var last = jQuery('.sub-menu.open', jQuery('#sidebar'));        
+                                jQuery('.menu-arrow').removeClass('arrow_carrot-right');
+                                jQuery('.sub', last).slideUp(200);
+                                var sub = jQuery(this).next();
+                                if (sub.is(":visible")) {
+                                    jQuery('.menu-arrow').addClass('arrow_carrot-right');            
+                                    sub.slideUp(200);
+                                } else {
+                                    jQuery('.menu-arrow').addClass('arrow_carrot-down');            
+                                    sub.slideDown(200);
+                                }
+                                var o = (jQuery(this).offset());
+                                diff = 200 - o.top;
+                                if(diff&gt;0)
+                                    jQuery("#sidebar").scrollTo("-="+Math.abs(diff),500);
+                                else
+                                    jQuery("#sidebar").scrollTo("+="+Math.abs(diff),500);
+                            });
+
+                            // sidebar menu toggle
+                            jQuery(function() {
+                                function responsiveView() {
+                                    var wSize = jQuery(window).width();
+                                    if (wSize &lt;= 768) {
+                                        jQuery('#container').addClass('sidebar-close');
+                                        jQuery('#sidebar &gt; ul').hide();
+                                    }
+
+                                    if (wSize &gt; 768) {
+                                        jQuery('#container').removeClass('sidebar-close');
+                                        jQuery('#sidebar &gt; ul').show();
+                                    }
+                                }
+                                jQuery(window).on('load', responsiveView);
+                                jQuery(window).on('resize', responsiveView);
+                            });
+
+                            jQuery('.toggle-nav').click(function () {
+                                if (jQuery('#sidebar &gt; ul').is(":visible") === true) {
+                                    jQuery('#main-content').css({
+                                        'margin-left': '0px'
+                                    });
+                                    jQuery('#sidebar').css({
+                                        'margin-left': '-180px'
+                                    });
+                                    jQuery('#sidebar &gt; ul').hide();
+                                    jQuery("#container").addClass("sidebar-closed");
+                                } else {
+                                    jQuery('#main-content').css({
+                                        'margin-left': '180px'
+                                    });
+                                    jQuery('#sidebar &gt; ul').show();
+                                    jQuery('#sidebar').css({
+                                        'margin-left': '0'
+                                    });
+                                    jQuery("#container").removeClass("sidebar-closed");
+                                }
+                            });
+
+                            //bar chart
+                            if (jQuery(".custom-custom-bar-chart")) {
+                                jQuery(".bar").each(function () {
+                                    var i = jQuery(this).find(".value").html();
+                                    jQuery(this).find(".value").html("");
+                                    jQuery(this).find(".value").animate({
+                                        height: i
+                                    }, 2000)
+                                })
+                            }
+
+                        }
+
+                        jQuery(document).ready(function(){
+                            initializeJS();
+                        });</pre></div></div>
+                          </div>
+                      </section>
+                    </div>
+            </div>
+          </div>
+          <hr>
+          <div id="credits" class="doc-post ">
+            <div class="row">
+                  <div class="col-lg-12">
+                      <section class="panel">
+                          <header class="panel-heading">
+                              Credits
+                          </header>
+                          <div class="panel-body">
+                            <div class="row doc-content">
+                            <ul>
+                              <li># Front-end framework :
+                                <ul>
+                                  <li><a href="http://getbootstrap.com/" target="_blank">Bootstrap 3</a></li>
+                                </ul>
+                              </li>
+                              
+                              <li># Images :
+                              <ul>
+                               <li>
+                                  <a href="http://graphicburger.com/5-blurred-backgrounds-vol-2/" target="_blank">Blurred Backgrounds</a>
+                               </li>
+                               <li>
+                                  <a href="http://www.flickr.com/photos/stuckincustoms/" target="_blank">Stuckincustoms</a>
+                               </li>                               
+                              </ul>
+                              </li>
+                              <li># Scripts :
+                              <ul>
+                               <li><a href="http://jquery.com/" target="_blank">jQuery library</a>
+                                 - <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap 3.0</a>
+                                   - <a href="http://areaaperta.com/nicescroll/" target="_blank">jquery NiceScroll</a>
+                                  -<a href="http://mindmup.github.io/bootstrap-wysiwyg/" target="_blank">bootstrap-wysiwyg</a>
+                                  -<a href="http://ckeditor.com/" target="_blank">CKEditor</a>
+                                  -<a href="http://www.chartjs.org/" target="_blank">Chartjs</a>
+                                  -<a href="http://rendro.github.io/easy-pie-chart/" target="_blank">jQuery Easy Pie Chart</a>
+                                  -<a href="http://omnipotent.net/jquery.sparkline" target="_blank">jQuery Sparklines</a>
+                                  -<a href="http://www.oesmith.co.uk/morris.js/" target="_blank">Morris</a>
+                                  -<a href="http://www.owlgraphic.com/owlcarousel" target="_blank">jQuery OwlCarousel v1.21</a>
+                                  -<a href="http://www.datatables.net/blog/Twitter_Bootstrap_2" target="_blank">DataTables</a>
+                                  -<a href="http://anthonyterrien.com/knob/" target="_blank">jQuery Knob</a>
+                                  -<a href="http://arshaw.com/fullcalendar/" target="_blank">FullCalendar</a>
+                                  -<a href="http://boedesign.com/demos/gritter/" target="_blank">Gritter Notifications</a>
+                                  -<a href="http://jqueryui.com/slider/" target="_blank">jQuery Slider</a>
+                                   - <a href="https://github.com/flesler/jquery.scrollTo" target="_blank">jquery scrollTo</a>
+                                  -<a href="http://www.eyecon.ro/bootstrap-datepicker/" target="_blank">Datepicker for Bootstrap</a>
+                                  -<a href="http://www.eyecon.ro/bootstrap-colorpicker/" target="_blank">Colorpicker for Bootstrap</a>
+                                  -<a href="https://github.com/dangrossman/bootstrap-daterangepicker" target="_blank">Date Range Picker for Bootstrap</a>
+                                  -<a href="http://xoxco.com/clickable/jquery-tags-input" target="_blank">jQuery Tags Input</a>
+                                  -<a href="http://jqueryvalidation.org/" target="_blank">jQuery Validation Plugin</a>
+
+                              </li>
+                              </ul>
+                              </li>
+
+                              <li># Fonts :
+                              <ul>
+                               <li> <a href="http://www.fontsquirrel.com/fonts/roboto" target="_blank">roboto font</a> </li>
+                              </ul>
+                              </li>
+
+                              <li># Font icons :
+                              <ul>
+                               <li><a href="http://fontawesome.io" target="_blank">Font Awesome 3.1.0</a> – <a href="http://www.elegantthemes.com/blog/resources/elegant-icon-font" target="_blank">Elegant Icon Font</a> </li>
+                              </ul>
+                              </li>
+
+                              </ul>
+                            </div>
+                            <p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the support forums and asking your question in the <a href="http://geekslabs.freshdesk.com/support/discussions" target="_blank">Item Discussion</a> section.</p>
+                            <br><br><br>
+                            <ul class="author-details">
+                              <li>By: GeeksLabs</li>
+                              <li>Contact: <a href="mailto:hello@geekslabs.com">hello@geekslabs.com</a></li>
+                              <li>Demo: <a target="_blank" href="http://demo.geekslabs.com/karmata">http://demo.geekslabs.com/karmata</a></li>
+                            </ul>
+                          </div>
+                      </section>
+                  </div>
+            </div>
+          </div>
+          <hr>
+         </div>
+       </div>
+      </section>
+     </section>
+    </section>
+    <!--main content end-->
+  </section>
+  <!-- container section end -->
+    <!-- javascripts -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.localscroll.js" type="text/javascript" charset="utf-8"></script>
+    <!-- nice scroll -->
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/jquery.nicescroll.js" type="text/javascript"></script><!--custome script for all page-->
+    <script src="js/scripts.js"></script>
+    <script src="http://syntaxhighlight.in/shi/js/shi_jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+     //Local <a href="#example"> Smooth  Scrolling 
+    jQuery(document).localScroll();
+    //Closoe Nav on click
+    jQuery(document).on('click','.navbar-collapse.in',function(e) {        
+        if( jQuery(e.target).is('a') ) {
+            jQuery(this).removeClass('in').addClass('collapse');
+        }
+    });
+    </script>
+
+  </body>
+</html>
